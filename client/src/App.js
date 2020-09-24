@@ -10,7 +10,7 @@ import ProfileCard from "./components/Profilecard"
 
 function App() {
   return (
-    <Router>
+    <Router style={{overflow: "hidden"}}>
       <div className="body">
         <Nav />
         <Row>
@@ -28,11 +28,13 @@ function App() {
             </Switch>
           </Col>
         </Row>
-      </div>
-      <div className="footer"></div>
-        <Row>
-          <ProfileCard />
-        </Row>
+        </div>
+        <div className="footer">
+          <Row>
+            <ProfileCard />
+          </Row>
+        </div>
+      
     </Router>
   );
 }
