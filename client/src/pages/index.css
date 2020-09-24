@@ -9,7 +9,14 @@
   border-radius: 20px;
 }
 
-.profile-pic {
-  width: 25vw;
+.profile-pic{
+  width: 20vw;
   margin-bottom: 3vw;
+}
+
+@media only screen and (max-width: 600px){
+.profile-pic {
+  width: 30vw;
+  margin-bottom: 3vw;
+}
 }

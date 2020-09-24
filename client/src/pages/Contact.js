@@ -3,6 +3,7 @@ import { Row, Container } from "../components/Grid";
 import "./index.css"
 import { ExternalLink } from "react-external-link"
 import {Form} from "react-bootstrap"
+import Profile from "../images/profile.jpg"
 
 class Home extends Component {
   render() {
@@ -12,6 +13,7 @@ class Home extends Component {
           <div className="col-sm-10">
             <div className="body-text">
               <Form>
+              <img className="profile-pic" src={Profile}/>
                 <Form.Group controlId="exampleForm.ControlInput1">
                   <Form.Label>Email address</Form.Label>
                   <Form.Control type="email" placeholder="name@example.com" />

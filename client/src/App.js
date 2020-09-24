@@ -11,7 +11,7 @@ import ProfileCard from "./components/Profilecard"
 function App() {
   return (
     <Router>
-      <div>
+      <div className="body">
         <Nav />
         <Row>
           <Col size="md-10">
@@ -28,10 +28,11 @@ function App() {
             </Switch>
           </Col>
         </Row>
-        <Row>
-            <ProfileCard />
-        </Row>
       </div>
+      <div className="footer"></div>
+        <Row>
+          <ProfileCard />
+        </Row>
     </Router>
   );
 }
