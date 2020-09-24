@@ -2,19 +2,21 @@ import React, { Component } from "react";
 import { Row, Container } from "../components/Grid";
 import "./index.css"
 import { Carousel } from "react-bootstrap"
-import fitfeed1 from "../images/FitFeed1.PNG"
-import fitfeed2 from "../images/FitFeed2.PNG"
-import fitfeed3 from "../images/FitFeed3.PNG"
-import movieMuse1 from "../images/movieMuse1.PNG"
-import movieMuse2 from "../images/movieMuse2.PNG"
-import movieMuse3 from "../images/movieMuse3.PNG"
-import {ExternalLink} from "react-external-link"
-import pocketDIY1 from "../images/PocketDIY1.PNG"
-import pocketDIY2 from "../images/PocketDIY2.PNG"
-import pocketDIY3 from "../images/PocketDIY3.PNG"
-import pocketDIY4 from "../images/PocketDIY4.PNG"
-import pocketDIY5 from "../images/PocketDIY5.PNG"
-import pocketDIY6 from "../images/PocketDIY6.PNG"
+import longcut1 from "../images/longcut1.PNG"
+import longcut2 from "../images/longcut2.PNG"
+import longcut3 from "../images/longcut3.PNG"
+import shortcut1 from "../images/shortcut1.PNG"
+import shortcut2 from "../images/shortcut2.PNG"
+import shortcut3 from "../images/shortcut3.PNG"
+import natcolor1 from "../images/natcolor1.PNG"
+import natcolor2 from "../images/natcolor2.PNG"
+import natcolor3 from "../images/natcolor3.PNG"
+import fashcolor1 from "../images/fashcolor1.PNG"
+import fashcolor2 from "../images/fashcolor2.PNG"
+import fashcolor3 from "../images/fashcolor3.PNG"
+import style1 from "../images/style1.PNG"
+import style2 from "../images/style2.PNG"
+import style3 from "../images/style3.PNG"
 
 class Projects extends Component {
   render() {
@@ -31,21 +33,21 @@ class Projects extends Component {
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src={movieMuse1}
+                    src={shortcut1}
                     alt="First slide"
                   />
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src={movieMuse2}
+                    src={shortcut2}
                     alt="Third slide"
                   />
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src={movieMuse3}
+                    src={shortcut3}
                     alt="Third slide"
                   />
                 </Carousel.Item>
@@ -57,21 +59,21 @@ class Projects extends Component {
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src={fitfeed1}
+                    src={longcuts1}
                     alt="First slide"
                   />
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src={fitfeed2}
+                    src={longcuts2}
                     alt="Third slide"
                   />
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src={fitfeed3}
+                    src={longcuts3}
                     alt="Third slide"
                   />
                 </Carousel.Item>
@@ -83,42 +85,21 @@ class Projects extends Component {
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src={pocketDIY1}
+                    src={natcolor1}
                     alt="First slide"
                   />
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src={pocketDIY2}
+                    src={natcolor2}
                     alt="Third slide"
                   />
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src={pocketDIY3}
-                    alt="Third slide"
-                  />
-                </Carousel.Item>
-                <Carousel.Item>
-                  <img
-                    className="d-block w-100"
-                    src={pocketDIY4}
-                    alt="Third slide"
-                  />
-                </Carousel.Item>
-                <Carousel.Item>
-                  <img
-                    className="d-block w-100"
-                    src={pocketDIY5}
-                    alt="Third slide"
-                  />
-                </Carousel.Item>
-                <Carousel.Item>
-                  <img
-                    className="d-block w-100"
-                    src={pocketDIY6}
+                    src={natcolor3}
                     alt="Third slide"
                   />
                 </Carousel.Item>
@@ -130,21 +111,21 @@ class Projects extends Component {
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src={fitfeed1}
+                    src={fashcolor1}
                     alt="First slide"
                   />
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src={fitfeed2}
+                    src={fashcolor2}
                     alt="Third slide"
                   />
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src={fitfeed3}
+                    src={fashcolor3}
                     alt="Third slide"
                   />
                 </Carousel.Item>
@@ -156,21 +137,21 @@ class Projects extends Component {
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src={fitfeed1}
+                    src={style1}
                     alt="First slide"
                   />
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src={fitfeed2}
+                    src={style2}
                     alt="Third slide"
                   />
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src={fitfeed3}
+                    src={style3}
                     alt="Third slide"
                   />
                 </Carousel.Item>
