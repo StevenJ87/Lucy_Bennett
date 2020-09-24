@@ -1,39 +1,20 @@
-.card{
+.footer{
+    margin-top: 20px;
     background-color: #14213d;
-    color: #e5e5e5;
+    width: 100%;
     position: sticky;
 }
 
-#profile-card{
-    position: fixed;
-    margin-left: 0.5vw;
-    width: 15%;
-    border-radius: 20px;
-}
-
-.card-body {
+.info{
     text-align: center;
-    padding: 0.2vw;
 }
 
-#profile-pic{
-    width: 10vw;
-    height: 10vw;
-    object-fit: cover;
-    object-position: 20%;
-    margin: 0 auto;
-    margin-top: 10px;
-    border-radius: 20px;
+.icon{
+    max-width: 4vw;
 }
 
-.btn{
-    background-color: #e5e5e5;
-    color: #14213d;
-    margin: 1vw;
-    width: 50%;
-}
-
-.btn:hover{
-    background-color: #14213d;
-    color: #e5e5e5;
-}
+@media only screen and (max-width: 600px) {
+    .icon{
+        max-width: 11vw;
+    }
+  }
