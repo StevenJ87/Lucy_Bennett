@@ -7,7 +7,7 @@ class Home extends Component {
     return (
       <Container fluid>
         <Row>
-          <div className="col-sm-10">
+          <div className="col-sm-12">
             <div className="body-text">
               <h1>About</h1>
               <p>

@@ -9,7 +9,6 @@ function ProfileCard() {
         <img id="profile-pic" src={profilePic} className="card-img-top" alt="Profile" />
         <div className="card-body">
           <h5 className="card-title">Steven Johnson</h5>
-          <ExternalLink href="mailto: lucybennett.styles@gmail.com" className="btn">Email</ExternalLink>
           <ExternalLink href="https://www.instagram.com/color_me_lucky/" className="btn">Instagram</ExternalLink>
           <ExternalLink href="https://www.facebook.com/lucybennett.styles" className="btn">Facebook</ExternalLink>
         </div>

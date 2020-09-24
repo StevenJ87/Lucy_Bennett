@@ -1,8 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import {Row, Col } from "./components/Grid"
+import { Row, Col } from "./components/Grid"
 import Home from "./pages/Home";
-import Projects from "./pages/Projects";
+import Portfolio from "./pages/Portfolio";
+import Contact from "./pages/Contact";
 import './App.css';
 import Nav from "./components/Nav";
 import ProfileCard from "./components/Profilecard"
@@ -13,19 +14,22 @@ function App() {
       <div>
         <Nav />
         <Row>
-          <Col size="md-2">
-            <ProfileCard/>
-          </Col>
           <Col size="md-10">
-        <Switch>
-          <Route exact path="/">
-            <Home/>
-            </Route>
-          <Route exact path="/projects">
-          <Projects/>
-          </Route>
-        </Switch>
-        </Col>
+            <Switch>
+              <Route exact path="/">
+                <Home />
+              </Route>
+              <Route exact path="/portfolio">
+                <Portfolio />
+              </Route>
+              <Route exact path="/contact">
+                <Contact />
+              </Route>
+            </Switch>
+          </Col>
+        </Row>
+        <Row>
+            <ProfileCard />
         </Row>
       </div>
     </Router>
