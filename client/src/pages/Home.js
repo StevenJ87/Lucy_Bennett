@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Row, Container } from "../components/Grid";
 import "./index.css"
+import Profile from "../images/profile.jpg"
 
 class Home extends Component {
   render() {
@@ -9,6 +10,7 @@ class Home extends Component {
         <Row>
           <div className="col-sm-12">
             <div className="body-text">
+              <img className="profile-pic" src={Profile}/>
               <h1>About</h1>
               <p>
                 Hello there friends!
