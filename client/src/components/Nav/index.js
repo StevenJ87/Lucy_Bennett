@@ -16,8 +16,8 @@ function Nav() {
       </Link>
       </li>
       <li>
-        <Link className="nav-link" to="/contact">
-          Contact
+        <Link className="nav-link" to="/location">
+          Location
       </Link>
       </li>
     </ul>

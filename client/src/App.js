@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Row, Col } from "./components/Grid"
 import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
-import Contact from "./pages/Contact";
+import Location from "./pages/Location";
 import './App.css';
 import Nav from "./components/Nav";
 import ProfileCard from "./components/Profilecard"
@@ -22,8 +22,8 @@ function App() {
               <Route exact path="/portfolio">
                 <Portfolio />
               </Route>
-              <Route exact path="/contact">
-                <Contact />
+              <Route exact path="/location">
+                <Location />
               </Route>
             </Switch>
           </Col>

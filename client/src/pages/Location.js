@@ -5,7 +5,7 @@ import { ExternalLink } from "react-external-link"
 import {Form} from "react-bootstrap"
 import Profile from "../images/profile.jpg"
 
-class Home extends Component {
+class Location extends Component {
   render() {
     return (
       <Container fluid>
@@ -36,4 +36,4 @@ class Home extends Component {
 }
 
 
-export default Home;
+export default Location;
