@@ -2,21 +2,6 @@ import React, { Component } from "react";
 import { Row, Container } from "../components/Grid";
 import "./index.css"
 import { Carousel } from "react-bootstrap"
-import longcut1 from "../images/longcut1.jpg"
-import longcut2 from "../images/longcut2.jpg"
-import longcut3 from "../images/longcut3.jpg"
-import shortcut1 from "../images/shortcut1.jpg"
-import shortcut2 from "../images/shortcut2.jpg"
-import shortcut3 from "../images/shortcut3.jpg"
-import natcolor1 from "../images/natcolor1.jpg"
-import natcolor2 from "../images/natcolor2.jpg"
-import natcolor3 from "../images/natcolor3.jpg"
-import fashcolor1 from "../images/fashcolor1.jpg"
-import fashcolor2 from "../images/fashcolor2.jpg"
-import fashcolor3 from "../images/fashcolor3.jpg"
-import style1 from "../images/style1.jpg"
-import style2 from "../images/style2.jpg"
-import style3 from "../images/style3.jpg"
 
 class Projects extends Component {
   render() {
@@ -33,21 +18,21 @@ class Projects extends Component {
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src={shortcut1}
+                    src=''
                     alt="First slide"
                   />
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src={shortcut2}
+                    src=""
                     alt="Third slide"
                   />
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src={shortcut3}
+                    src=''
                     alt="Third slide"
                   />
                 </Carousel.Item>
@@ -59,21 +44,21 @@ class Projects extends Component {
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src={longcut1}
+                    src=''
                     alt="First slide"
                   />
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src={longcut2}
+                    src=''
                     alt="Third slide"
                   />
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src={longcut3}
+                    src=''
                     alt="Third slide"
                   />
                 </Carousel.Item>
@@ -85,21 +70,21 @@ class Projects extends Component {
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src={natcolor1}
+                    src=''
                     alt="First slide"
                   />
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src={natcolor2}
+                    src=''
                     alt="Third slide"
                   />
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src={natcolor3}
+                    src=''
                     alt="Third slide"
                   />
                 </Carousel.Item>
@@ -111,21 +96,21 @@ class Projects extends Component {
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src={fashcolor1}
+                    src=''
                     alt="First slide"
                   />
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src={fashcolor2}
+                    src=''
                     alt="Third slide"
                   />
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src={fashcolor3}
+                    src=''
                     alt="Third slide"
                   />
                 </Carousel.Item>
@@ -137,21 +122,21 @@ class Projects extends Component {
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src={style1}
+                    src=''
                     alt="First slide"
                   />
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src={style2}
+                    src=''
                     alt="Third slide"
                   />
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src={style3}
+                    src=''
                     alt="Third slide"
                   />
                 </Carousel.Item>
