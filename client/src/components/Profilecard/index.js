@@ -6,6 +6,7 @@ import { Card, Button, ModalFooter } from 'react-bootstrap'
 import {Col, Row} from "../Grid"
 import Insta from "../../images/Instagram.png"
 import Face from "../../images/facebook.png"
+import Mail from "../../images/email.png"
 
 function ProfileCard() {
   return (
@@ -15,6 +16,7 @@ function ProfileCard() {
           <div className="col-md-12">
           <ExternalLink href="https://www.instagram.com/color_me_lucky/" className="btn"><img className="icon" src={Insta}/></ExternalLink>
           <ExternalLink href="https://www.facebook.com/lucybennett.styles" className="btn"><img className="icon" src={Face}/></ExternalLink>
+          <ExternalLink href="mailto: lucybennett.styles@gmail.com" className="btn"><img className="icon" src={Mail}/></ExternalLink>
           </div>
         </div>
       </div>
