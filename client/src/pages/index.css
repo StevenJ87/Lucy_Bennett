@@ -8,11 +8,21 @@
   padding: 40px;
   border-radius: 20px;
   margin-bottom: 13vh;
+  float: left;
 }
 
 .profile-pic{
   width: 20vw;
-  margin-bottom: 3vw;
+  margin-right: 3vw;
+  float: left;
+}
+
+.schoolLink{
+color: white;
+}
+
+.schoolLink:hover{
+  color: grey;
 }
 
 @media only screen and (max-width: 600px){
