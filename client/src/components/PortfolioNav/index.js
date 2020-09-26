@@ -6,7 +6,7 @@ function Nav() {
   return (
     <ul className="nav justify-content-center">
       <li>
-        <Link className="nav-link" to="short">
+        <Link className="nav-link" to="/short">
           Short Cuts
       </Link>
       </li>
