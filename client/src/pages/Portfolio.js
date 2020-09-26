@@ -71,15 +71,43 @@ class Projects extends Component {
                     alt="Third slide"
                   />
                 </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src='https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/120260917_10224237446112675_9171576474610392466_n.jpg?_nc_cat=108&_nc_sid=0debeb&_nc_ohc=ZF6i6oVeXukAX-HYq-t&_nc_ht=scontent-dfw5-2.xx&oh=113a603b01a565a175106a4b3cbc346e&oe=5F9558FE'
+                    alt="Third slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src='https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/120292229_10224237446512685_6897692524845047866_n.jpg?_nc_cat=100&_nc_sid=0debeb&_nc_ohc=nGCnQboVLNcAX9aI8b5&_nc_ht=scontent-dfw5-2.xx&oh=86155c3e3a574b17264a5288058adafd&oe=5F941A72'
+                    alt="Third slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src='https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/120221566_10224237446952696_8305822572031120592_n.jpg?_nc_cat=105&_nc_sid=0debeb&_nc_ohc=zLrGBUPjdUoAX_dAMzB&_nc_ht=scontent-dfw5-1.xx&oh=b3e3e4c4e16f125b344c123bafe40f69&oe=5F953715'
+                    alt="Third slide"
+                  />
+                </Carousel.Item>
               </Carousel>
 
               {/* Project 2 */}<br></br>
               <h4 className="project-title">Medium Cuts</h4>
               <Carousel>
-                <Carousel.Item>
+              <Carousel.Item>
                   <img
                     className="d-block w-100"
                     src='https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/120228077_10224237370630788_275224216958963196_n.jpg?_nc_cat=102&_nc_sid=0debeb&_nc_ohc=iFPkWALtKiEAX_rQrER&_nc_ht=scontent-dfw5-2.xx&oh=f1a2cd24242dfa3ce25b2e98606ecdd2&oe=5F95CACB'
+                    alt="First slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src='https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/120289232_10224237376230928_4887475885996807557_n.jpg?_nc_cat=111&_nc_sid=0debeb&_nc_ohc=Xhu-kUXlwf0AX-7_GPs&_nc_ht=scontent-dfw5-1.xx&oh=c7ffb5c88b3f66940b7f9f27119f95aa&oe=5F92A47A'
                     alt="First slide"
                   />
                 </Carousel.Item>
@@ -93,7 +121,28 @@ class Projects extends Component {
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src=''
+                    src='https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/120201883_10224237374390882_3499907225671622439_n.jpg?_nc_cat=100&_nc_sid=0debeb&_nc_ohc=upzY61pTpGwAX-FWkwe&_nc_ht=scontent-dfw5-2.xx&oh=f80537ca143c3065dae04f07d9f9f74c&oe=5F953661'
+                    alt="Third slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src='https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/120225473_10224237371590812_4091862728756608132_n.jpg?_nc_cat=108&_nc_sid=0debeb&_nc_ohc=uCAXgXstVo8AX_krks1&_nc_ht=scontent-dfw5-2.xx&oh=0a745c581fb73ade2483e932c9c4b695&oe=5F954048'
+                    alt="Third slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src='https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/120200112_10224237379511010_3738175291175270221_n.jpg?_nc_cat=107&_nc_sid=0debeb&_nc_ohc=Gja2J7LtdXsAX8ujeQO&_nc_ht=scontent-dfw5-2.xx&oh=fa97210e771ed5d3c41ed60f4d8a6382&oe=5F95B0EC'
+                    alt="Third slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src='https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/120340424_10224237380791042_1513862930154986035_n.jpg?_nc_cat=106&_nc_sid=0debeb&_nc_ohc=JZmWhmO8tzoAX_yKP9U&_nc_ht=scontent-dfw5-2.xx&oh=479d6659c15ff9006ff73a89b5849b9e&oe=5F945002'
                     alt="Third slide"
                   />
                 </Carousel.Item>
@@ -105,22 +154,8 @@ class Projects extends Component {
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src=''
+                    src='https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/120217381_10224237449232753_3984324590094121753_n.jpg?_nc_cat=100&_nc_sid=0debeb&_nc_ohc=RWD-l9-CP1oAX-Ks6QP&_nc_ht=scontent-dfw5-2.xx&oh=eb3ac125cd71bcbfdb42a1242236bcd1&oe=5F95D15B'
                     alt="First slide"
-                  />
-                </Carousel.Item>
-                <Carousel.Item>
-                  <img
-                    className="d-block w-100"
-                    src=''
-                    alt="Third slide"
-                  />
-                </Carousel.Item>
-                <Carousel.Item>
-                  <img
-                    className="d-block w-100"
-                    src=''
-                    alt="Third slide"
                   />
                 </Carousel.Item>
               </Carousel>
@@ -163,6 +198,20 @@ class Projects extends Component {
                     alt="Third slide"
                   />
                 </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src='https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/120241783_10224237382111075_924719037924491910_n.jpg?_nc_cat=105&_nc_sid=0debeb&_nc_ohc=ybXyhtAqNVgAX89sbdM&_nc_ht=scontent-dfw5-1.xx&oh=3d1bd7f00d6e54278108e3e626cf218c&oe=5F95B1AE'
+                    alt="Third slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src='https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/120222380_10224237375190902_6392523086006285889_n.jpg?_nc_cat=102&_nc_sid=0debeb&_nc_ohc=TUQCUq-hU-IAX9kx3m6&_nc_ht=scontent-dfw5-2.xx&oh=53a3ceb7d7c81fe2152e6c8bfd822b17&oe=5F95F3BB'
+                    alt="Third slide"
+                  />
+                </Carousel.Item>
               </Carousel>
            
           {/* Project 4 */}<br></br>
@@ -200,6 +249,55 @@ class Projects extends Component {
                   <img
                     className="d-block w-100"
                     src='https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/120251470_10224237380911045_1848602502460953782_n.jpg?_nc_cat=101&_nc_sid=0debeb&_nc_ohc=sL6d9B56GTEAX8es6-F&_nc_ht=scontent-dfw5-1.xx&oh=2f769728b780cbd475e9f05e17a92007&oe=5F94056B'
+                    alt="Third slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src='https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/120222000_10224237376390932_3837593114869139672_n.jpg?_nc_cat=104&_nc_sid=0debeb&_nc_ohc=eYH-biTtk18AX-dn97C&_nc_ht=scontent-dfw5-2.xx&oh=832a9c1c1882554ae35db815af3b767f&oe=5F94421A'
+                    alt="Third slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src='https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/120289599_10224237372310830_2279221661846251763_n.jpg?_nc_cat=110&_nc_sid=0debeb&_nc_ohc=ec-s7Fe31OUAX_Lz4OI&_nc_ht=scontent-dfw5-1.xx&oh=2780c1efdd8cef3f50d0b9636df4f4c7&oe=5F951068'
+                    alt="Third slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src='https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/120244377_10224237374430883_1994339066118648817_n.jpg?_nc_cat=109&_nc_sid=0debeb&_nc_ohc=jOKy0kGx_3sAX8DSuit&_nc_ht=scontent-dfw5-2.xx&oh=26dde15a8fb16a6acbcd59d53610618b&oe=5F95CAA2'
+                    alt="Third slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src='https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/120260497_10224237447272704_1283966180043824362_n.jpg?_nc_cat=102&_nc_sid=0debeb&_nc_ohc=85lP5qYSiJUAX8KdBAf&_nc_ht=scontent-dfw5-2.xx&oh=6ef7e1ef02f3f112ac7f3f0af09f8f94&oe=5F95CB4F'
+                    alt="Third slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src='https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/120199509_10224237447752716_4115313973868326029_n.jpg?_nc_cat=102&_nc_sid=0debeb&_nc_ohc=t3M4bq1T3IMAX8yc0Yj&_nc_ht=scontent-dfw5-2.xx&oh=2ec086f887b81956f9cb30f552584c51&oe=5F961982'
+                    alt="Third slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src='https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/120237326_10224237448032723_8628185843300472225_n.jpg?_nc_cat=101&_nc_sid=0debeb&_nc_ohc=go0Ew0SavhkAX_Sruri&_nc_ht=scontent-dfw5-1.xx&oh=565d19f6ffddba9cfcd58407dcfd02bc&oe=5F938133'
+                    alt="Third slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src='https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/120251458_10224237448672739_226593862747322041_n.jpg?_nc_cat=111&_nc_sid=0debeb&_nc_ohc=p01hmMzQRW4AX9zCiYA&_nc_ht=scontent-dfw5-1.xx&oh=076cb7b248c59a1f9526241ded258fcd&oe=5F93BC18'
                     alt="Third slide"
                   />
                 </Carousel.Item>
@@ -254,6 +352,48 @@ class Projects extends Component {
                   <img
                     className="d-block w-100"
                     src='https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/120305620_10224237381791067_5090063039200717248_n.jpg?_nc_cat=101&_nc_sid=0debeb&_nc_ohc=-VQQE2nmSDgAX9maId4&_nc_ht=scontent-dfw5-1.xx&oh=6665765c0032c92b9851ef763c1f38ba&oe=5F952257'
+                    alt="Third slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src='https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/120222380_10224237375310905_7706435675703748189_n.jpg?_nc_cat=106&_nc_sid=0debeb&_nc_ohc=VmvnyyrHQKgAX8NfWq-&_nc_ht=scontent-dfw5-2.xx&oh=d7740e276cc5d5af4f9aa63acca76ab5&oe=5F95E5DF'
+                    alt="Third slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src='https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/120256613_10224237371630813_2795157194058125495_n.jpg?_nc_cat=104&_nc_sid=0debeb&_nc_ohc=6silg_5E20kAX9AFhbt&_nc_ht=scontent-dfw5-2.xx&oh=306ab76b314c4a76ac27eb56df67094d&oe=5F92D6AF'
+                    alt="Third slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src='https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/120231451_10224237379111000_6657338096710095885_n.jpg?_nc_cat=107&_nc_sid=0debeb&_nc_ohc=rZ-_2OkY7JwAX_WXtct&_nc_ht=scontent-dfw5-2.xx&oh=d15b2e4128a00b0168db32a88c5fc63b&oe=5F95CB17'
+                    alt="Third slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src='https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/120236927_10224237381551061_5480899392563576145_n.jpg?_nc_cat=110&_nc_sid=0debeb&_nc_ohc=TxQf8ZEfmLUAX8zqCEY&_nc_ht=scontent-dfw5-1.xx&oh=e741cb0ea99289860a062cd4fa19f339&oe=5F92AAB5'
+                    alt="Third slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src='https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/120221432_10224237445552661_635037566903507711_n.jpg?_nc_cat=111&_nc_sid=0debeb&_nc_ohc=oYZe3uqpcssAX-hDaGK&_nc_ht=scontent-dfw5-1.xx&oh=385c60bb2d5dc7b81c2bcd52dcec2f45&oe=5F93D341'
+                    alt="Third slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src='https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/120322486_10224237445832668_6496273836618031209_n.jpg?_nc_cat=103&_nc_sid=0debeb&_nc_ohc=8GyyTEmaT8sAX-bpHAU&_nc_ht=scontent-dfw5-1.xx&oh=da46bee28157ebda3fad7325d3d82de2&oe=5F93A700'
                     alt="Third slide"
                   />
                 </Carousel.Item>
