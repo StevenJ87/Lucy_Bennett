@@ -4,11 +4,11 @@ import { Row, Container } from "../components/Grid";
 import "./index.css"
 import { Carousel } from "react-bootstrap"
 import ShortCuts from "./ShortCuts"
-import MediumCuts from "./ShortCuts"
-import LongCuts from "./ShortCuts"
-import NaturalColors from "./ShortCuts"
-import FashionColors from "./ShortCuts"
-import Styles from "./ShortCuts"
+import MediumCuts from "./MediumCuts"
+import LongCuts from "./LongCuts"
+import NaturalColors from "./NaturalColors"
+import FashionColors from "./FashionColors"
+import Styles from "./Styles"
 
 let shortcuts = [
   "https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/120200112_10224237374230878_8350837842506913728_n.jpg?_nc_cat=106&_nc_sid=0debeb&_nc_ohc=ZZLoqw0II54AX-FF7F4&_nc_ht=scontent-dfw5-2.xx&oh=11a249a68fa84eba8a6428dc2280146c&oe=5F955486",
@@ -65,18 +65,18 @@ let fashioncolors = [
 
 let styles = [
   'https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/120143442_10224237369710765_1579216761707640749_n.jpg?_nc_cat=106&_nc_sid=0debeb&_nc_ohc=0qgYzofryIMAX8y0Igh&_nc_ht=scontent-dfw5-2.xx&oh=306603bc27e482e1c178dbf55f6b9798&oe=5F95703A',
-'https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/120258274_10224237376190927_6048579985344375028_n.jpg?_nc_cat=100&_nc_sid=0debeb&_nc_ohc=6SWlMEoAPpwAX-eylpc&_nc_ht=scontent-dfw5-2.xx&oh=3d9ac4411c26d98b4098dd7def0f9861&oe=5F95BC1F',
-'https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/120216691_10224237376990947_14072147148780770_n.jpg?_nc_cat=108&_nc_sid=0debeb&_nc_ohc=aomneSo9sjwAX8e1yk_&_nc_ht=scontent-dfw5-2.xx&oh=0ad8055bab21324b99319fea59ac0f5a&oe=5F92DCA8',
-'https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/120226519_10224237369790767_7396156556299795661_n.jpg?_nc_cat=108&_nc_sid=0debeb&_nc_ohc=vIcvEPEY22MAX8iQuwe&_nc_ht=scontent-dfw5-2.xx&oh=98ab89193829b7d22a2eac228548d72c&oe=5F9478C1',
-'https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/120142251_10224237377910970_4624473918148463594_n.jpg?_nc_cat=105&_nc_sid=0debeb&_nc_ohc=-EUniT9sZDsAX_PcOlj&_nc_ht=scontent-dfw5-1.xx&oh=dea899f96f1f22c5f5dc537effd9ee8c&oe=5F92D90A',
-'https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/120240234_10224237373230853_3225294842943894609_n.jpg?_nc_cat=100&_nc_sid=0debeb&_nc_ohc=5QmCDRHFKP4AX_Ld5fN&_nc_ht=scontent-dfw5-2.xx&oh=b5f3c7f860048cfffd65090aaca8ce01&oe=5F942988',
-'https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/120305620_10224237381791067_5090063039200717248_n.jpg?_nc_cat=101&_nc_sid=0debeb&_nc_ohc=-VQQE2nmSDgAX9maId4&_nc_ht=scontent-dfw5-1.xx&oh=6665765c0032c92b9851ef763c1f38ba&oe=5F952257',
-'https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/120222380_10224237375310905_7706435675703748189_n.jpg?_nc_cat=106&_nc_sid=0debeb&_nc_ohc=VmvnyyrHQKgAX8NfWq-&_nc_ht=scontent-dfw5-2.xx&oh=d7740e276cc5d5af4f9aa63acca76ab5&oe=5F95E5DF',
-'https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/120256613_10224237371630813_2795157194058125495_n.jpg?_nc_cat=104&_nc_sid=0debeb&_nc_ohc=6silg_5E20kAX9AFhbt&_nc_ht=scontent-dfw5-2.xx&oh=306ab76b314c4a76ac27eb56df67094d&oe=5F92D6AF',
-'https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/120231451_10224237379111000_6657338096710095885_n.jpg?_nc_cat=107&_nc_sid=0debeb&_nc_ohc=rZ-_2OkY7JwAX_WXtct&_nc_ht=scontent-dfw5-2.xx&oh=d15b2e4128a00b0168db32a88c5fc63b&oe=5F95CB17',
-'https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/120236927_10224237381551061_5480899392563576145_n.jpg?_nc_cat=110&_nc_sid=0debeb&_nc_ohc=TxQf8ZEfmLUAX8zqCEY&_nc_ht=scontent-dfw5-1.xx&oh=e741cb0ea99289860a062cd4fa19f339&oe=5F92AAB5',
-'https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/120221432_10224237445552661_635037566903507711_n.jpg?_nc_cat=111&_nc_sid=0debeb&_nc_ohc=oYZe3uqpcssAX-hDaGK&_nc_ht=scontent-dfw5-1.xx&oh=385c60bb2d5dc7b81c2bcd52dcec2f45&oe=5F93D341',
-'https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/120322486_10224237445832668_6496273836618031209_n.jpg?_nc_cat=103&_nc_sid=0debeb&_nc_ohc=8GyyTEmaT8sAX-bpHAU&_nc_ht=scontent-dfw5-1.xx&oh=da46bee28157ebda3fad7325d3d82de2&oe=5F93A700'
+  'https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/120258274_10224237376190927_6048579985344375028_n.jpg?_nc_cat=100&_nc_sid=0debeb&_nc_ohc=6SWlMEoAPpwAX-eylpc&_nc_ht=scontent-dfw5-2.xx&oh=3d9ac4411c26d98b4098dd7def0f9861&oe=5F95BC1F',
+  'https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/120216691_10224237376990947_14072147148780770_n.jpg?_nc_cat=108&_nc_sid=0debeb&_nc_ohc=aomneSo9sjwAX8e1yk_&_nc_ht=scontent-dfw5-2.xx&oh=0ad8055bab21324b99319fea59ac0f5a&oe=5F92DCA8',
+  'https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/120226519_10224237369790767_7396156556299795661_n.jpg?_nc_cat=108&_nc_sid=0debeb&_nc_ohc=vIcvEPEY22MAX8iQuwe&_nc_ht=scontent-dfw5-2.xx&oh=98ab89193829b7d22a2eac228548d72c&oe=5F9478C1',
+  'https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/120142251_10224237377910970_4624473918148463594_n.jpg?_nc_cat=105&_nc_sid=0debeb&_nc_ohc=-EUniT9sZDsAX_PcOlj&_nc_ht=scontent-dfw5-1.xx&oh=dea899f96f1f22c5f5dc537effd9ee8c&oe=5F92D90A',
+  'https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/120240234_10224237373230853_3225294842943894609_n.jpg?_nc_cat=100&_nc_sid=0debeb&_nc_ohc=5QmCDRHFKP4AX_Ld5fN&_nc_ht=scontent-dfw5-2.xx&oh=b5f3c7f860048cfffd65090aaca8ce01&oe=5F942988',
+  'https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/120305620_10224237381791067_5090063039200717248_n.jpg?_nc_cat=101&_nc_sid=0debeb&_nc_ohc=-VQQE2nmSDgAX9maId4&_nc_ht=scontent-dfw5-1.xx&oh=6665765c0032c92b9851ef763c1f38ba&oe=5F952257',
+  'https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/120222380_10224237375310905_7706435675703748189_n.jpg?_nc_cat=106&_nc_sid=0debeb&_nc_ohc=VmvnyyrHQKgAX8NfWq-&_nc_ht=scontent-dfw5-2.xx&oh=d7740e276cc5d5af4f9aa63acca76ab5&oe=5F95E5DF',
+  'https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/120256613_10224237371630813_2795157194058125495_n.jpg?_nc_cat=104&_nc_sid=0debeb&_nc_ohc=6silg_5E20kAX9AFhbt&_nc_ht=scontent-dfw5-2.xx&oh=306ab76b314c4a76ac27eb56df67094d&oe=5F92D6AF',
+  'https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/120231451_10224237379111000_6657338096710095885_n.jpg?_nc_cat=107&_nc_sid=0debeb&_nc_ohc=rZ-_2OkY7JwAX_WXtct&_nc_ht=scontent-dfw5-2.xx&oh=d15b2e4128a00b0168db32a88c5fc63b&oe=5F95CB17',
+  'https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/120236927_10224237381551061_5480899392563576145_n.jpg?_nc_cat=110&_nc_sid=0debeb&_nc_ohc=TxQf8ZEfmLUAX8zqCEY&_nc_ht=scontent-dfw5-1.xx&oh=e741cb0ea99289860a062cd4fa19f339&oe=5F92AAB5',
+  'https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/120221432_10224237445552661_635037566903507711_n.jpg?_nc_cat=111&_nc_sid=0debeb&_nc_ohc=oYZe3uqpcssAX-hDaGK&_nc_ht=scontent-dfw5-1.xx&oh=385c60bb2d5dc7b81c2bcd52dcec2f45&oe=5F93D341',
+  'https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/120322486_10224237445832668_6496273836618031209_n.jpg?_nc_cat=103&_nc_sid=0debeb&_nc_ohc=8GyyTEmaT8sAX-bpHAU&_nc_ht=scontent-dfw5-1.xx&oh=da46bee28157ebda3fad7325d3d82de2&oe=5F93A700'
 
 ]
 
@@ -94,7 +94,7 @@ class Projects extends Component {
                 <h1>Portfolio</h1>
                 <Switch>
 
-                <Route exact path="/short">
+                  <Route exact path="/short">
                     <ShortCuts />
                   </Route>
 
@@ -126,19 +126,11 @@ class Projects extends Component {
                         Short Cuts
                       </Link>
                     </h4>
-                    <Carousel>
-                      {shortcuts.map(element => {
-                        return (
-                          <Carousel.Item>
-                            <img
-                              className="d-block w-100"
-                              src={element}
-                              alt="Short Cut"
-                            />
-                          </Carousel.Item>
-                        )
-                      })}
-                    </Carousel>
+                    <img
+                      className="d-block w-100"
+                      src="https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/120200112_10224237374230878_8350837842506913728_n.jpg?_nc_cat=106&_nc_sid=0debeb&_nc_ohc=ZZLoqw0II54AX-FF7F4&_nc_ht=scontent-dfw5-2.xx&oh=11a249a68fa84eba8a6428dc2280146c&oe=5F955486"
+                      alt="Short Cut"
+                    />
 
                     {/* Medium Cuts */}<br></br>
                     <h4 className="project-title">
@@ -146,19 +138,11 @@ class Projects extends Component {
                         Medium Cuts
                         </Link>
                     </h4>
-                    <Carousel>
-                      {mediumcuts.map(element => {
-                        return (
-                          <Carousel.Item>
-                            <img
-                              className="d-block w-100"
-                              src={element}
-                              alt="Medium Cut"
-                            />
-                          </Carousel.Item>
-                        )
-                      })}
-                    </Carousel>
+                    <img
+                      className="d-block w-100"
+                      src='https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/120228077_10224237370630788_275224216958963196_n.jpg?_nc_cat=102&_nc_sid=0debeb&_nc_ohc=iFPkWALtKiEAX_rQrER&_nc_ht=scontent-dfw5-2.xx&oh=f1a2cd24242dfa3ce25b2e98606ecdd2&oe=5F95CACB'
+                      alt="Medium Cut"
+                    />
 
                     {/* Long Cuts */}<br></br>
                     <h4 className="project-title">
@@ -166,19 +150,11 @@ class Projects extends Component {
                         Long Cuts
                         </Link>
                     </h4>
-                    <Carousel>
-                      {longcuts.map(element => {
-                        return (
-                          <Carousel.Item>
-                            <img
-                              className="d-block w-100"
-                              src={element}
-                              alt="Long Cut"
-                            />
-                          </Carousel.Item>
-                        )
-                      })}
-                    </Carousel>
+                    <img
+                      className="d-block w-100"
+                      src='https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/120217381_10224237449232753_3984324590094121753_n.jpg?_nc_cat=100&_nc_sid=0debeb&_nc_ohc=RWD-l9-CP1oAX-Ks6QP&_nc_ht=scontent-dfw5-2.xx&oh=eb3ac125cd71bcbfdb42a1242236bcd1&oe=5F95D15B'
+                      alt="Long Cut"
+                    />
 
                     {/* Natural Colors */}<br></br>
                     <h4 className="project-title">
@@ -186,19 +162,11 @@ class Projects extends Component {
                         Natural Colors
                         </Link>
                     </h4>
-                    <Carousel>
-                      {naturalcolors.map(element => {
-                        return (
-                          <Carousel.Item>
-                            <img
-                              className="d-block w-100"
-                              src={element}
-                              alt="Long Cut"
-                            />
-                          </Carousel.Item>
-                        )
-                      })}
-                    </Carousel>
+                    <img
+                      className="d-block w-100"
+                      src='https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/120139145_10224237373190852_3733763773040926756_n.jpg?_nc_cat=104&_nc_sid=0debeb&_nc_ohc=BAjRWez3DYIAX9YKcME&_nc_ht=scontent-dfw5-2.xx&oh=d136f7a66fb7897156da5db3f7b6c0c3&oe=5F95FABC'
+                      alt="Long Cut"
+                    />
 
                     {/* Fashion Colors */}<br></br>
                     <h4 className="project-title">
@@ -206,19 +174,11 @@ class Projects extends Component {
                         Fashion Colors
                         </Link>
                     </h4>
-                    <Carousel>
-                      {fashioncolors.map(element => {
-                        return (
-                          <Carousel.Item>
-                            <img
-                              className="d-block w-100"
-                              src={element}
-                              alt="Long Cut"
-                            />
-                          </Carousel.Item>
-                        )
-                      })}
-                    </Carousel>
+                    <img
+                      className="d-block w-100"
+                      src='https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/120292549_10224237379191002_2508454696279123990_n.jpg?_nc_cat=101&_nc_sid=0debeb&_nc_ohc=nUOs3lD-L-sAX9fhXxS&_nc_ht=scontent-dfw5-1.xx&oh=d3ad9aa5e1d6cc76ddca6395f63aaff1&oe=5F92AF29'
+                      alt="Long Cut"
+                    />
 
                     {/* Styles */}<br></br>
                     <h4 className="project-title">
@@ -226,19 +186,11 @@ class Projects extends Component {
                         Styles
                         </Link>
                     </h4>
-                    <Carousel>
-                      {styles.map(element => {
-                        return (
-                          <Carousel.Item>
-                            <img
-                              className="d-block w-100"
-                              src={element}
-                              alt="Long Cut"
-                            />
-                          </Carousel.Item>
-                        )
-                      })}
-                    </Carousel>
+                    <img
+                      className="d-block w-100"
+                      src='https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/120143442_10224237369710765_1579216761707640749_n.jpg?_nc_cat=106&_nc_sid=0debeb&_nc_ohc=0qgYzofryIMAX8y0Igh&_nc_ht=scontent-dfw5-2.xx&oh=306603bc27e482e1c178dbf55f6b9798&oe=5F95703A'
+                      alt="Long Cut"
+                    />
                   </Route>
                 </Switch>
               </div>
