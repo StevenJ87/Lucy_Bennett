@@ -1,19 +1,29 @@
 import React, { Component } from "react";
+import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom"
 import { Row, Container } from "../components/Grid";
 import "./index.css"
 import { Carousel } from "react-bootstrap"
+import ShortCuts from "./ShortCuts"
 
 class Projects extends Component {
   render() {
     return (
+      <Router>
       <Container fluid scroll>
         <Row>
           <div className="col-sm-10">
             <div className="body-text">
               <h1>Portfolio</h1>
-
+              <Switch>
+              <Route exact path="/short">
+                <ShortCuts />
+              </Route>
+              
+              <Route exact path="/portfolio">
               {/* Project 1 */}<br></br>
-              <h4 className="project-title">Short Cuts</h4>
+              <h4 className="project-title"><Link to="/short">
+          Short Cuts
+      </Link></h4>
               <Carousel>
                 <Carousel.Item>
                   <img
@@ -398,10 +408,13 @@ class Projects extends Component {
                   />
                 </Carousel.Item>
               </Carousel>
+              </Route>
+              </Switch>
               </div>
           </div>
         </Row>
       </Container>
+      </Router>
     );
   }
 }
