@@ -122,7 +122,7 @@ class Projects extends Component {
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src=''
+                    src='https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/120143442_10224237369710765_1579216761707640749_n.jpg?_nc_cat=106&_nc_sid=0debeb&_nc_ohc=0qgYzofryIMAX8y0Igh&_nc_ht=scontent-dfw5-2.xx&oh=306603bc27e482e1c178dbf55f6b9798&oe=5F95703A'
                     alt="First slide"
                   />
                 </Carousel.Item>
