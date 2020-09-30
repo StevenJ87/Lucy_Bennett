@@ -41,11 +41,8 @@ class ShortCuts extends Component {
         <Row>
               <Nav/>
               {/* Short Cuts */}<br></br>
-              <h4 className="project-title">
-                      <Link to="/short">
-                        Short Cuts
-                      </Link>
-                    </h4>
+              <div>
+              <h4 className="project-title">Short Cuts</h4>
                     <Carousel>
                       {shortcuts.map(element => {
                         return (
@@ -59,6 +56,7 @@ class ShortCuts extends Component {
                         )
                       })}
                     </Carousel>
+                    </div>
         </Row>
       </Container>
     );

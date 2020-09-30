@@ -19,6 +19,7 @@ class ShortCuts extends Component {
         <Row>
               <Nav/>
               {/* Long Cuts */}<br></br>
+              <div>
               <h4 className="project-title">Long Cuts</h4>
                     <Carousel>
                       {longcuts.map(element => {
@@ -33,6 +34,7 @@ class ShortCuts extends Component {
                         )
                       })}
                     </Carousel>
+                    </div>
         </Row>
       </Container>
     );
