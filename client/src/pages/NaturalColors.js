@@ -31,7 +31,7 @@ class ShortCuts extends Component {
                     <Carousel>
                       {naturalcolors.map(element => {
                         return (
-                          <Carousel.Item>
+                          <Carousel.Item key={element}>
                             <img
                               className="d-block w-100"
                               src={element}
