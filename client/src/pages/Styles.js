@@ -35,25 +35,27 @@ class ShortCuts extends Component {
   render() {
     return (
       <Container fluid scroll>
+        <Nav />
+        {/* Styles */}<br></br>
         <Row>
-              <Nav/>
-              {/* Styles */}<br></br>
-              <div>
-              <h4 className="project-title">Styles</h4>
-                    <Carousel>
-                      {styles.map(element => {
-                        return (
-                          <Carousel.Item key={element}>
-                            <img
-                              className="d-block w-100"
-                              src={element}
-                              alt="Styles"
-                            />
-                          </Carousel.Item>
-                        )
-                      })}
-                    </Carousel>
-                    </div>
+          <h2 className="project-title">
+            Styles
+          </h2>
+        </Row>
+        <Row>
+          <Carousel>
+            {styles.map(element => {
+              return (
+                <Carousel.Item key={element}>
+                  <img
+                    className="d-block w-100"
+                    src={element}
+                    alt="Styles"
+                  />
+                </Carousel.Item>
+              )
+            })}
+          </Carousel>
         </Row>
       </Container>
     );
