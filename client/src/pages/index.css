@@ -1,5 +1,4 @@
 .project-title{
-  border-bottom: 2px solid #14213d;
 }
 
 .body-text{
@@ -26,6 +25,10 @@ color: white;
   color: grey;
 }
 
+.catPic{
+  width: 15vw;
+}
+
 @media only screen and (max-width: 600px){
 .profile-pic {
   width: 35vw;
@@ -33,6 +36,9 @@ color: white;
 }
 .innerText{
   margin-left: 0;
+}
+.catPic{
+  width: 65vw;
 }
 }
 
