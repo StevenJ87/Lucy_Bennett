@@ -14,7 +14,7 @@ function Projects()  {
       <Router>
         <Container fluid scroll>
           <Row>
-            <div className="col-sm-10">
+            <div className="col-sm-12">
               <div className="body-text">
                 <h1>Portfolio</h1>
                 <Switch>

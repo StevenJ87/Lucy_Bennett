@@ -3,18 +3,19 @@
 }
 
 .body-text{
-  margin: 0;
+  margin: 2vw 3.5vw 13vh 0;
   background: rgba(94,100,114, 0.8);
   padding: 40px;
   border-radius: 20px;
-  margin-bottom: 13vh;
-  float: left;
+  width: 100%;
+}
+
+.innerText{
+  margin-left: 3vw;
 }
 
 .profile-pic{
   width: 20vw;
-  margin-right: 3vw;
-  float: left;
 }
 
 .schoolLink{
@@ -27,8 +28,11 @@ color: white;
 
 @media only screen and (max-width: 600px){
 .profile-pic {
-  width: 30vw;
+  width: 35vw;
   margin-bottom: 3vw;
+}
+.innerText{
+  margin-left: 0;
 }
 }
 
@@ -37,4 +41,3 @@ color: white;
     max-width: 20vw;
   }
   }
-
