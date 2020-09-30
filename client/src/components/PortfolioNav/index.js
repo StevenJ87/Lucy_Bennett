@@ -1,41 +1,34 @@
 import React from "react";
-import { Link } from "react-router-dom"
-import './index.css';
+import { Link } from "react-router-dom";
+import { Row, Container, Col } from "../Grid";
+import './style.css';
 
 function Nav() {
   return (
-    <ul className="nav justify-content-center">
-      <li>
+    <Container>
+      <Col size="sm-6">
         <Link className="nav-link" to="/short">
           Short Cuts
-      </Link>
-      </li>
-      <li>
-        <Link className="nav-link" to="/medium">
-          Medium Cuts
-      </Link>
-      </li>
-      <li>
-        <Link className="nav-link" to="/long">
-          Long Cuts
-      </Link>
-      </li>
-      <li>
+          </Link>
         <Link className="nav-link" to="/natural">
           Natural Colors
-      </Link>
-      </li>
-      <li>
+          </Link>
+          <Link className="nav-link" to="/medium">
+          Medium Cuts
+          </Link>
+      </Col>
+      <Col size="sm-6">
         <Link className="nav-link" to="/fashion">
           Fashion Colors
-      </Link>
-      </li>
-      <li>
+          </Link>
+        <Link className="nav-link" to="/long">
+          Long Cuts
+          </Link>
         <Link className="nav-link" to="/styles">
           Styles
-      </Link>
-      </li>
-    </ul>
+          </Link>
+      </Col>
+    </Container>
   );
 }
 
