@@ -19,31 +19,31 @@ function Projects() {
               <h1>Portfolio</h1>
               <Switch>
 
-                <Route exact path="/short">
+                <Route path="/short">
                   <ShortCuts />
                 </Route>
 
-                <Route exact path="/medium">
+                <Route path="/medium">
                   <MediumCuts />
                 </Route>
 
-                <Route exact path="/long">
+                <Route path="/long">
                   <LongCuts />
                 </Route>
 
-                <Route exact path="/natural">
+                <Route path="/natural">
                   <NaturalColors />
                 </Route>
 
-                <Route exact path="/fashion">
+                <Route path="/fashion">
                   <FashionColors />
                 </Route>
 
-                <Route exact path="/styles">
+                <Route path="/styles">
                   <Styles />
                 </Route>
 
-                <Route exact path="/portfolio">
+                <Route path="/portfolio">
 
                   <Row>
                     <Col size="md-4">

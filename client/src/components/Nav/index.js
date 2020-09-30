@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 import './index.css';
 
 function Nav() {
+
   return (
     <ul className="nav justify-content-center">
       <li>
