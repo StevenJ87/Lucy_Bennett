@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
+import { BrowserRouter as Router, Redirect, Route, Switch } from "react-router-dom";
 import { Row, Col } from "./components/Grid"
 import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";

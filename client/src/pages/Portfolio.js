@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom"
+import { BrowserRouter as Router, Link, Route, Switch, Redirect } from "react-router-dom"
 import { Row, Container, Col } from "../components/Grid";
 import "./index.css"
 import ShortCuts from "./ShortCuts"
